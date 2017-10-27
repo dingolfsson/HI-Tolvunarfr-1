@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javafx.scene.shape.Ellipse;
-
 public class Hw9p3 {
     public static double recPow(double x, double n) {
         n = Math.floor(n);
