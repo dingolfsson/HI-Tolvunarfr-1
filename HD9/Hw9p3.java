@@ -17,9 +17,9 @@ public class Hw9p3 {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         System.out.print("Base: ");
-        int n = reader.nextInt();
-        System.out.print("Expo: ");
         int x = reader.nextInt();
+        System.out.print("Expo: ");
+        int n = reader.nextInt();
 
         System.out.println(recPow(x, n));
     }
